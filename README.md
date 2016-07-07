@@ -1,2 +1,2 @@
-# kudos-service
-tbd
+# Philosopher
+A work-in-progress kudos service
