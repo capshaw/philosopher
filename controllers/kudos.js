@@ -1,6 +1,6 @@
 var cradle = require('cradle');
 
-module.exports = function(app, app_properties) {
+module.exports = function (app) {
   app.get('/kudos/:kudos_id', function (req, res) {
     res.send('Hello World!');
   });

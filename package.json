@@ -19,8 +19,7 @@
   "homepage": "https://github.com/capshaw/philosopher#readme",
   "dependencies": {
     "cradle": "^0.7.1",
-    "express": "^4.14.0",
-    "properties": "^1.2.1"
+    "express": "^4.14.0"
   },
   "devDependencies": {}
 }
