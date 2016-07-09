@@ -2,7 +2,7 @@
   "name": "philosopher",
   "version": "1.0.0",
   "description": "A work-in-progress kudos service",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/capshaw/philosopher/issues"
   },
-  "homepage": "https://github.com/capshaw/philosopher#readme"
+  "homepage": "https://github.com/capshaw/philosopher#readme",
+  "dependencies": {
+    "cradle": "^0.7.1",
+    "express": "^4.14.0",
+    "properties": "^1.2.1"
+  },
+  "devDependencies": {}
 }
