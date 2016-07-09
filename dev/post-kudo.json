@@ -1,0 +1,8 @@
+{
+  "message": "Good job on the logging library @fakePerson",
+  "creator": "andrew",
+  "recepients": [{
+    "type": "user",
+    "recepient": "fakePerson"
+  }]
+}
