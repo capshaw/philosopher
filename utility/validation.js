@@ -1,8 +1,6 @@
-/**
- * Given a list of field names, check if the request has those fields using
- * express-validator. Write an error request if those fields are not present.
- * Returns true if there are errors, false otherwise.
- */
+// Given a list of field names, check if the request has those fields using
+// express-validator. Write an error request if those fields are not present.
+// Returns true if there are errors, false otherwise.
  module.exports.requireBodyParameters = function (fields, req, res) {
 
   for (var i = 0, len = fields.length; i < len; i++) {
