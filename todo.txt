@@ -1,5 +1,0 @@
-- DB connection pool or otherwise avoid creating new connections each request.
-- Consider how to log requests in a consistent manner
-- Consistent error handling
-- Tests
-- Code formatting

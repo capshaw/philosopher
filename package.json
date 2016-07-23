@@ -1,10 +1,12 @@
 {
   "name": "philosopher",
   "version": "1.0.0",
-  "description": "A work-in-progress kudos service",
+  "description": "A work-in-progress service",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint *.js **/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,10 @@
     "express": "^4.14.0",
     "express-validator": "^2.20.8"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^3.1.1"
+  },
+  "env": {
+    "es6": true
+  }
 }
