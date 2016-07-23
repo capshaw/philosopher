@@ -15,3 +15,5 @@ require('./controllers/errors')(app);
 app.listen(config.port, () => {
   console.log(`Philosopher app listening on port ${config.port}!`);
 });
+
+module.exports = app;
